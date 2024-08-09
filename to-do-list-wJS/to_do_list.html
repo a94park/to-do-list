@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="to_do_list.css">
+        <title>To Do List App</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="toDoApp">
+                <h2>To-Do List</h2>
+                <div class="tasks">
+                    <input type="text" id="taskInput" placeholder="Add your task">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <ul id="taskContainer">
+                    <!-- <li>Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+        <script src="to_do_list.js"></script>
+    </body>
+</html>
+
+
+<!-- 
+STRETCH
+
+-prioritize by dragging tasks from top to bottom (and viseversa) andor due dates
+-calendar api?
+-right-click tasks -> drop down to categorize/color-code?? (school/work/home/family)
+-separate "hidden" divs for history(completed/deleted)
+    date feature (when created/completed) 
+-save in localstorage as proper json
+    -->
